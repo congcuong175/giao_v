@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hoem"
+    app:startDestination="@id/trang_chu">
+    <fragment
+        android:id="@+id/trang_chu"
+        android:name="com.example.myapplication.Trang_chu"
+        android:label="fragment_trang_chu"
+        tools:layout="@layout/fragment_trang_chu" >
+        <action
+            android:id="@+id/action_trang_chu_to_diem_danh"
+            app:destination="@id/diem_danh"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/tai_khoan2"
+        android:name="com.example.myapplication.Tai_khoan"
+        android:label="fragment_tai_khoan"
+        tools:layout="@layout/fragment_tai_khoan" />
+    <fragment
+        android:id="@+id/diem_danh"
+        android:name="com.example.myapplication.diem_danh"
+        android:label="fragment_diem_danh"
+        tools:layout="@layout/fragment_diem_danh" />
+    <fragment
+        android:id="@+id/quan_ly_lophoc"
+        android:name="com.example.myapplication.quan_ly_lophoc"
+        android:label="fragment_quan_ly_lophoc"
+        tools:layout="@layout/fragment_quan_ly_lophoc" >
+        <action
+            android:id="@+id/action_quan_ly_lophoc_to_danh_sach_sv"
+            app:destination="@id/danh_sach_sv" />
+    </fragment>
+    <fragment
+        android:id="@+id/danh_sach_sv"
+        android:name="com.example.myapplication.danh_sach_sv"
+        android:label="fragment_danh_sach_sv"
+        tools:layout="@layout/fragment_danh_sach_sv" />
+</navigation>
