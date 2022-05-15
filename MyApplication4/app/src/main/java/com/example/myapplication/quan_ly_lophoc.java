@@ -46,11 +46,11 @@ public class quan_ly_lophoc extends Fragment {
 
     private void getdata() {
 
-        lop_hocs.add(new lop_hoc("101195","CNTT","2020-2021"));
-        lop_hocs.add(new lop_hoc("101195","CNTT","2020-2021"));
-        lop_hocs.add(new lop_hoc("101195","CNTT","2020-2021"));
-        lop_hocs.add(new lop_hoc("101195","CNTT","2020-2021"));
-        lop_hocs.add(new lop_hoc("101195","CNTT","2020-2021"));
+        lop_hocs.add(new lop_hoc("101191A","CNTT","2020-2021"));
+        lop_hocs.add(new lop_hoc("101191","CNTT","2020-2021"));
+        lop_hocs.add(new lop_hoc("101192","CNTT","2020-2021"));
+        lop_hocs.add(new lop_hoc("101193","CNTT","2020-2021"));
+        lop_hocs.add(new lop_hoc("101194","CNTT","2020-2021"));
         lop_hocs.add(new lop_hoc("101195","CNTT","2020-2021"));
 
     }

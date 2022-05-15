@@ -45,10 +45,10 @@ public class Trang_chu extends Fragment {
 
     private void getdata() {
 
-        lich_hocs.add(new lich_hoc("101195","Đại số tuyến tính","1-4"));
-        lich_hocs.add(new lich_hoc("101195","Đại số tuyến tính","1-4"));
-        lich_hocs.add(new lich_hoc("101195","Đại số tuyến tính","1-4"));
-        lich_hocs.add(new lich_hoc("101195","Đại số tuyến tính","1-4"));
-        lich_hocs.add(new lich_hoc("101195","Đại số tuyến tính","1-4"));
+        lich_hocs.add(new lich_hoc("125205","Cơ sở kỹ thuật lập trình","1-4"));
+        lich_hocs.add(new lich_hoc("101195","Toán rời rạc","1-4"));
+        lich_hocs.add(new lich_hoc("125205","Lập trình Android cơ bản","1-4"));
+        lich_hocs.add(new lich_hoc("101195","Lập trình Web API","1-4"));
+        lich_hocs.add(new lich_hoc("101195","Lập trình dịch vụ mạng trên Android","7-11"));
     }
 }
