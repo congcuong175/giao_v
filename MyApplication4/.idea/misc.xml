@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/dell/Downloads/giao_v/MyApplication4/app/src/main/res/layout/fragment_bat_dau.xml" value="0.1796875" />
         <entry key="..\:/Users/dell/Downloads/giao_v/MyApplication4/app/src/main/res/layout/fragment_dang_nhap.xml" value="0.1796875" />
+        <entry key="..\:/Users/dell/Downloads/giao_v/MyApplication4/app/src/main/res/layout/fragment_diem_danh.xml" value="0.1796875" />
         <entry key="..\:/Users/dell/Downloads/giao_v/MyApplication4/app/src/main/res/layout/loading.xml" value="0.1796875" />
         <entry key="..\:/android/MyApplication4/app/src/main/res/drawable/back.xml" value="0.2985" />
         <entry key="..\:/android/MyApplication4/app/src/main/res/layout/activity_main.xml" value="0.3625" />

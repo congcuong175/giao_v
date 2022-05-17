@@ -34,6 +34,7 @@ public class sinhvien_adapter extends RecyclerView.Adapter<sinhvien_adapter.sinh
         holder.txt_stt.setText(position+1+"");
         holder.txt_masv.setText(lich_hoc.getMasv());
         holder.txt_ten.setText(lich_hoc.getTensv());
+        holder.checkBox.setChecked(lich_hoc.isCheck());
 
     }
 
